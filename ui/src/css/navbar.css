@@ -1,0 +1,222 @@
+.box {
+  height: 74px;
+  position: relative;
+  width: 1200px;
+  z-index: 100;
+
+}
+
+.header {
+  background-color: rgb(255, 255, 255);
+  height: 74px;
+  left: 150px;
+  position: fixed;
+  top: 0;
+  width: 1200px;
+  box-shadow: 0px 4px 10px #1a695573;
+  padding: 0px 20px 20px 20px;
+  border-radius: 0px 0px 20px 20px;;
+}
+
+.navbar {
+  align-items: center;
+  display: flex;
+  gap: 172px;
+  position: relative;
+  width: 1200px;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  gap: 3px;
+  position: relative;
+  width: 175px;
+}
+
+.med-care {
+  color: transparent;
+    
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 37.8px;
+  /* left: 600px; */
+  position: relative;
+  width: fit-content;
+  /* top: -20px; */
+}
+
+.plusSign {
+  color: #1a6955;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.SiteTitle {
+  color: #000000;
+  text-decoration: none;
+}
+
+.left-menu {
+  align-items: center;
+  display: flex;
+  gap: 60px;
+  justify-content: flex-end;
+  position: relative;
+  width: 853.33px;
+}
+
+.sepration-box {
+  height: 74px;
+  position: relative;
+  width: 460px;
+}
+
+.sepration {
+  height: 41px;
+  position: relative;
+  top: 17px;
+}
+
+.find-a-doc {
+  color: #000000;
+     
+  font-size: 18px;
+  font-weight: 400;
+  left: 91px;
+  letter-spacing: 0;
+  line-height: 21.8px;
+  position: absolute;
+  top: 5px;
+  text-decoration: none;
+}
+
+.services {
+  color: #000000;
+     
+  font-size: 18px;
+  font-weight: 400;
+  left: 250px;
+  letter-spacing: 0;
+  line-height: 21.8px;
+  position: absolute;
+  top: 5px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.button {
+  all: unset;
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  gap: 48px;
+  justify-content: flex-end;
+  position: relative;
+  width: 213.33px;
+}
+
+.profile{
+  position: relative;
+  top: 14px;
+  left: 10px;
+}
+
+.dropdown-option{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  display: block;
+  padding: 10px;
+  position: relative;
+  /* top: -20px; */
+}
+
+.dropdown-option-2{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  display: block;
+  padding: 10px;
+  position: relative;
+  top: -20px;
+}
+
+
+
+.dropdown-button:hover{
+  box-shadow: 0px 4px 10px #12473a;
+}
+
+.LogIn {
+  color: #ffffff;
+     
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 28.8px;
+  margin-top: -1px;
+
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+  text-decoration: none;
+
+}
+
+.userBtn {
+  all: unset;
+  align-items: flex-start;
+    
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #1a6955;
+  color: white;
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 10px 30px;
+  width: max-content;
+  position: relative;
+}
+
+.dropdown {
+  margin: 0px;
+  padding: 0px;
+  background-color: #fff;
+  height: 80px;
+  width: 160px;
+  border: 1px solid rgb(203, 203, 203);
+  border-radius: 7px;
+  box-shadow: 0px 4px 10px #00000050;
+  list-style-type: none;
+  position: absolute;
+  top: 85px;
+    left: 1030px;
+}
+
+.myProfile {
+  text-decoration: none;
+  color: #000000;
+    
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.LogOutBtn {
+  text-decoration: none;
+  color: #000000;
+    
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}

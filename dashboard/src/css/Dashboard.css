@@ -1,0 +1,307 @@
+
+.main-content {
+  padding: 20px;
+  position: relative;
+  margin-left: 150px;
+  transition: .3s ease;
+}
+
+.content{
+  transition: .3s ease;
+}
+.doc-card-group {
+  position: relative;
+  left: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 100px;
+  
+}
+
+.card.doc-card {
+  width: 18rem;
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px #1a695573; 
+}
+
+.doc-img{
+  width: 100%;
+  height: auto;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  object-fit: cover;
+  right: 20px;
+  position: relative;
+}
+.card-img-top {
+  height: 200px; /* Set the desired height for the doctor image */
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 20px;
+  margin: 15px;
+}
+
+.card-text {
+  font-size: 15px;
+  color: #555;
+}
+
+.view-btn {
+  background-color: #1a6955;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-top: 18px;
+  margin-right: 20px;
+  font-size: 12px;
+  transition: .3s ease;
+}
+
+.view-btn:hover {
+  background-color: #145444;
+}
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  align-items: center;
+  align-content: center;
+  left: 110px;
+  position: relative;
+  width: 1200px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 20px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
+
+h2 {
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.AddDoc-btn{
+  background-color: #1a6955;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  top: 40px;
+  left: 1140px;
+  z-index: 100;
+  position: absolute;
+}
+
+.AddDoc-btn:hover {
+  background-color: #145444;
+}
+
+.docs {
+  width: 1200px;
+  left: 110px;
+  position: relative;
+  background-size: cover;
+  transition: .3s ease;
+}
+
+.pats {
+  background-image: url("D:/DrPoint/dashboard/src/img/pats.jpg");
+  width: 1200px;
+  left: 110px;
+  height: 500px;
+  position: relative;
+  background-size: cover;
+}
+
+.apps {
+  background-image: url("D:/DrPoint/dashboard/src/img/apps.jpg");
+  width: 1200px;
+  left: 110px;
+  height: 500px;
+  position: relative;
+  background-size: cover;
+}
+
+.feeds {
+  background-image: url("D:/DrPoint/dashboard/src/img/feeds.jpeg");
+  width: 1200px;
+  left: 110px;
+  height: 500px;
+  position: relative;
+  background-size: cover;
+}
+
+.home-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  transition: .3s ease;
+}
+
+.stat-card {
+  width: 250px;
+  height: 250px;
+  margin-left: 130px;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: .3s ease;
+}
+
+.doc-stat-card {
+  background-image: url("D:/DrPoint/dashboard/src/img/doccount.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  margin-left: 230px;
+}
+
+.pat-stat-card {
+  background-image: url("D:/DrPoint/dashboard/src/img/patcount.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.app-stat-card {
+  background-image: url("D:/DrPoint/dashboard/src/img/appcount.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+
+.stat-card:hover {
+  scale: 1.1;
+  box-shadow: 0 4px 20px 0 #1a6955e8;
+}
+
+.stat-card h3 {
+  background-color: #1a695588;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.stat-card p {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+  color: #1a6955;
+  background-color: #ffffff83;
+  padding: 10px;
+  border-radius: 20px;
+  width: 150px;
+}
+
+.barGaraph {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+
+
+/* Additional styles for better appearance */
+.chart-container {
+  position: relative;
+  left: 100px;
+  top: 50px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.donut-chart-container {
+  position: relative;
+  left: 67px;
+  top: 50px;
+  max-width: 425px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+.search-by-city {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-by-city input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.search-by-city button {
+  padding: 10px 20px;
+  background-color: #1a6955;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.search-by-city button:hover {
+  background-color: #135043;
+}
+
+
+
+

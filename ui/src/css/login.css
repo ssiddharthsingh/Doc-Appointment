@@ -1,0 +1,201 @@
+.login-page {
+    height: max-content;
+    width: max-content;
+  }
+  
+   .login-overlap-wrapper {
+    height: 650px;
+    left: 0;
+    top: 0;
+    width: 1510px;
+  }
+  
+   .login-overlap {
+    height: 650px;
+    position: relative;
+    top: -120px;
+    width: 1510px;
+  }
+  
+   .headlines {
+    height: 130px;
+    left: 50px;
+    position: absolute;
+    top: 140px;
+    width: 598px;
+  }
+  
+   .NewHere {
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+    left: 475px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 150px;
+    white-space: nowrap;
+    width: 236px;
+  }
+  
+   .sub-headline {
+    color: #565656;
+      
+    font-size: 20px;
+    font-weight: 400;
+    left: 345px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    width: 460px;
+  }
+  
+   .sign-up-btn {
+    all: unset;
+    box-sizing: border-box;
+    height: 38px;
+    left: 500px;
+    position: absolute;
+    top: 290px;
+    width: 132px;
+    background-color: #1a6955;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+    z-index: 1;
+
+
+  }
+  
+  .sign-up-btn:hover{
+    box-shadow: 0px 4px 10px #00000050;
+  }
+  
+   .sign-up {
+    color: #ffffff;
+      
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 7px;
+    white-space: nowrap;
+    width: 132px;
+    text-decoration: none;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .login-img {
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: 290px;
+}
+  
+   .login-part {
+    height: 414px;
+    left: 937px;
+    position: absolute;
+    top: 281px;
+    width: 470px;
+  }
+  
+  
+   .div {
+    border-radius: 20px;
+    height: 52px;
+    position: relative;
+    width: 173px;
+  }
+  
+   .login-btn {
+    color: #ffffff;
+      
+    font-size: 24px;
+    font-weight: 600;
+
+    background-color: #1a6955;
+    border: none;
+    border-radius: 20px;
+    height: 52px;
+    left: 147px;
+    position: absolute;
+    top: 300px;
+    transition: all 0.2s ease;
+    width: 173px;
+  }
+
+  .login-btn:hover{
+    box-shadow: 0px 4px 10px #00000050;
+  }
+  
+
+   .login-heading {
+    color: #000000;
+      
+    font-size: 48px;
+    font-weight: 700;
+    left: 163px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+   .password-box {
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 205px;
+    width: 470px;
+  }
+  
+   .enter-your-password {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-radius: 20px;
+    color: #000000;
+      
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    height: 50px;
+    left: 63px;
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 0;
+    top: 17px;
+    white-space: nowrap;
+    width: 468px;
+  }
+  
+   .email-box {
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 116px;
+    width: 470px;
+  }
+  
+   .enter-your-email {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-radius: 20px;
+    color: #000000;
+      
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    height: 50px;
+    left: 63px;
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 0;
+    top: 17px;
+    white-space: nowrap;
+    width: 468px;
+  }
+  

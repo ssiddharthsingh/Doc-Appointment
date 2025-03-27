@@ -1,0 +1,254 @@
+.signup-page {
+    height: max-content;
+    width: max-content;
+}
+
+
+.signup-overlap {
+    position: relative;
+    top: -120px;
+    width: 1510px;
+}
+
+.Signupimg{
+    height: 400px;
+    left: 1260px;
+    object-fit: cover;
+    position: absolute;
+    top: 330px;
+    /* width: 243px; */
+}
+
+.loginbtn {
+    left: 1126px;
+    position: absolute;
+    top: 327px;
+}
+
+.signup-overlap-group {
+    border-radius: 20px;
+    height: 38px;
+    position: relative;
+    width: 130px;
+}
+
+.loginbox {
+    background-color: #1a6955;
+    border-radius: 20px;
+    height: 38px;
+    left: -200px;
+    position: absolute;
+    top: 0;
+    transition: all 0.2s ease;
+    width: 130px;
+}
+
+.log-in-txt {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.signup-headings {
+    height: 118px;
+    left: 1068px;
+    position: absolute;
+    top: 171px;
+    width: 598px;
+}
+
+.signup-sub-heading {
+    color: #999999;
+    font-size: 18px;
+    left: 1004px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 205px;
+    width: 350px;
+}
+
+.oneOfUs {
+    color: #000000;   
+    font-size: 40px;
+    font-weight: 700;
+    left: 1068px;
+    position: absolute;
+    top: 171px;
+}
+
+.sign-up-part {
+    height: 604px;
+    left: 91px;
+    position: absolute;
+    top: 171px;
+    width: 471px;
+}
+
+.signup-btn {
+    color: #ffffff;
+      
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #1a6955;
+    border: none;
+    border-radius: 20px;
+    height: 52px; 
+    left: 148px;
+    position: absolute;
+    top: 480px;
+    width: 175px;
+}
+
+.signup-btn:hover{
+    box-shadow: 0px 4px 10px #00000050;
+}
+
+.div {
+    border-radius: 20px;
+    height: 52px;
+    position: relative;
+    width: 173px;
+}
+
+.sign-up-heading {
+    color: #000000;
+      
+    font-size: 48px;
+    font-weight: 700;
+    left: 143px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+}
+
+.inputbox{
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid;
+    border-radius: 20px;
+      
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    height: 50px;
+    left: 154px;
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 0;
+    top: 17px;
+    white-space: nowrap;
+    width: 468px;
+}
+
+.name-box {
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 78px;
+    width: 470px;
+}
+
+.emailbox {
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 140px;
+    width: 470px;
+}
+
+.passwordbox {
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 205px;
+    width: 470px;
+}
+
+.city{
+    height: 50px;
+    width: 470px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #999999;
+    text-align: center;
+    margin: 0;
+}
+
+.address-box {
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 270px;
+    width: 470px;
+}
+
+.second-address-box {
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 335px;
+    width: 470px;
+}
+
+.phone-box {
+    height: 50px;
+    left: 0px;
+    position: absolute;
+    top: 400px;
+    width: 470px;
+}
+
+.option-tab{
+    height: 50px;
+    left: 0px;
+    position: absolute;
+    top: 465px;
+    width: 470px;
+}
+
+
+.file{
+    position: absolute;
+    height: 50px;
+    left: 500px;
+    top: 400px;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    color: #999999;
+      
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.pic{
+        height: 50px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+.show-password-checkbox {
+    display: none;
+    position: absolute;
+    top: 220px; 
+    left: 350px; 
+  }
+  
+  .check-text {
+    position: absolute;
+    width: 200px;
+    top: 215px;
+    left: 430px;
+    color: #999999;
+  }
+  
+ 
+  

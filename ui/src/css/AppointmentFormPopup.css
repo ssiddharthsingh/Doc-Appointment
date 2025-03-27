@@ -1,0 +1,138 @@
+/* AppointmentFormPopup.css */
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.popup-content {
+  background: linear-gradient(#e3e7f0, #f3f4f9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  height: 600px;
+  width: 1100px;
+}
+
+.formheader {
+  text-align: center;
+  color: #333;
+
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.bookform {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.form {
+  flex: 1;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  color: #555;
+}
+
+input,
+select {
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+select {
+  cursor: pointer;
+}
+
+.time-slot-button {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.time-slot-button:hover {
+  background-color: #1a6955;
+  color: #fff;
+}
+
+.time-slot-button.selected {
+  background-color: #1a6955;
+  color: #fff;
+}
+
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+
+
+.close {
+  background-color: #fff;
+}
+
+.close:hover {
+  background-color: #eee;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  opacity: 0.8;
+}
+
+.Expdate{
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.cvv{
+  width: 100px;
+  margin-left: 220px;
+  top: -62px;
+  position: relative;
+}
+
+.CardName{
+  width: 320px;
+  top: -62px;
+  position: relative;
+}
+
+.cardNumber{
+  width: 320px;
+}
+
+.pay-button{
+  margin-left: -320px;
+}

@@ -1,0 +1,291 @@
+.team {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.team .div {
+  background-color: #ffffff;
+  height: max-content;
+  position: relative;
+  width: 1920px;
+}
+
+.team .banner {
+  /* background image */
+  background-image: url("../img/banner.jpg");
+  background-size: 100% 100%;
+  height: 450px;
+  border-radius: 20px;
+  left: 166px;
+  position: absolute;
+  top: 25px;
+  width: 1200px;
+}
+
+.team-overlap-group {
+  background-size: 100% 100%;
+  height: 258px;
+  position: relative;
+  left: 0px;
+  width: 258px;
+}
+
+.DocCrewcover {
+  height: 258px;
+  left: 1000px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.DocCrewcover2 {
+  height: 258px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 258px;
+}
+
+.team .text-wrapper {
+  color: #1b1b1b;
+
+  font-size: 40px;
+  font-weight: 700;
+  left: 460px;
+  letter-spacing: 0;
+  line-height: 45.8px;
+  position: absolute;
+  text-align: center;
+
+  white-space: nowrap;
+}
+
+.search-overlap {
+  background-color: #1a6955;
+  border-radius: 20px;
+  height: 192px;
+  position: relative;
+  width: 1200px;
+  left: 74px;
+  top: -222px;
+  box-shadow: 0px 4px 10px #1a6955bf;
+}
+
+.find-a-doctor {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  left: 40px;
+  letter-spacing: 0;
+  line-height: 46px;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  white-space: nowrap;
+}
+
+.name-textbox {
+  height: 66px;
+  left: 40px;
+  position: absolute;
+  top: 88px;
+  width: 298px;
+}
+
+.name {
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #1a6955;
+  color: #555555;
+
+  font-size: 20px;
+  font-weight: 400;
+  height: 66px;
+  line-height: 46px;
+  padding: 0;
+  padding-left: 19px;
+  position: relative;
+  white-space: nowrap;
+  width: 296px;
+}
+
+.search-button {
+  background-color: #064535;
+  position: absolute;
+  top: 88px;
+  left: 920px;
+}
+
+.search-button:hover {
+  box-shadow: 0px 4px 10px #00000050;
+}
+
+.span {
+  color: #1a6955 !important;
+}
+
+.DocOf {
+  color: #1b1b1b;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 500px;
+  height: 40px;
+  border-radius: 20px;
+  left: 400px;
+  letter-spacing: 0;
+  line-height: 45.8px;
+  position: absolute;
+  text-align: center;
+  top: 88px;
+  white-space: nowrap;
+}
+
+.DocCity {
+  color: #1b1b1b;
+  font-size: 16px;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  left: 180px;
+  letter-spacing: 0;
+  line-height: 45.8px;
+  position: absolute;
+  text-align: center;
+  top: 88px;
+  white-space: nowrap;
+}
+
+.location {
+  height: 20px;
+  left: 200px;
+  position: absolute;
+  top: 100px;
+  width: 15px;
+  z-index: 1;
+}
+
+.team .team-text-wrapper-5 {
+  color: #ffffff;
+
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 5.81px;
+  line-height: 19.9px;
+  margin-top: -0.5px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.team .our-medical-team-is-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+  width: 521px;
+}
+
+.team .our-medical-team-is {
+  color: #ffffff;
+
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 65px;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.team .button {
+  all: unset;
+  align-items: flex-start;
+  background-color: #1a6955;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 17px 34px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.team .bookan-appointment {
+  color: #ffffff;
+
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 25.6px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.team .image-2 {
+  height: 650px;
+  position: relative;
+  width: 605px;
+}
+
+/* Style for the card container */
+.doc-team {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-left: 50px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px #1a695573;
+  width: 18rem;
+  top: 700px;
+  left: 120px;
+  position: relative;
+  display: inline-block;
+}
+
+.bookbtn {
+  font-size: 12px;
+}
+
+.bookbtn:hover {
+  background-color: #094737;
+  box-shadow: 0px 4px 10px #1a6955bf;
+}
+
+.view-btn {
+  margin-top: 18px;
+  font-size: 10px;
+}
+
+.no-doctors {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #1a6955;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 700px;
+  margin-left: 170px;
+  width: 1200px;
+}
+
+.no-doctors-message {
+  color: #1a6955;
+  width: 400px;
+  font-size: 40px;
+  font-weight: 800;
+  margin-right: 20px; /* Add some margin to separate the text and image */
+}
+
+.no-doc {
+  width: 500px;
+  height: 300px;
+  display: block;
+}

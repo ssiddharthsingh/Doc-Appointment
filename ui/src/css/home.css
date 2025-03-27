@@ -1,0 +1,536 @@
+
+
+
+.hero-section {
+  position: relative;
+  width: 1510px;
+  margin-top: -150px;
+}
+
+.tagline-container {
+  height: 322px;
+  left: 144px;
+  position: absolute;
+  top: 220px;
+  width: 659px;
+}
+
+.tagline-text {
+  color: #000000;
+    
+  font-size: 44px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 659px;
+}
+
+.sub-heading {
+  color: #6e6e6e;
+     
+  font-size: 20px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 200px;
+  width: 470px;
+  text-align: justify;
+}
+
+
+.book-appointment-button {
+  left: 144px;
+  top: 560px;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+}
+
+.book-appointment-button:hover {
+  box-shadow: 0px 4px 10px #00000050;
+}
+
+.doctor-image-1 {
+  height: 364px;
+  left: 923px;
+  object-fit: cover;
+  position: absolute;
+  top: 221px;
+  width: 236px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px #f2d649;
+}
+
+.doctor-image-2 {
+  height: 250px;
+  left: 1185px;
+  object-fit: cover;
+  position: absolute;
+  top: 270px;
+  width: 182px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px #8f88b1;
+}
+
+.overlap-group {
+  height: 929px;
+  left: 1px;
+  position: absolute;
+  top: 700px;
+  width: 1510px;
+}
+
+.statistics-section {
+  height: 201px;
+  left: 352px;
+  position: absolute;
+  /* top: 932px; */
+  width: 789px;
+}
+
+.experience-stat {
+  height: 197px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 245px;
+}
+
+.experience-number {
+  color: #000000;
+    
+  font-size: 48px;
+  font-weight: 700;
+  left: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 117px;
+}
+
+.experience-description {
+  color: #707070;
+     
+  font-size: 20px;
+  font-weight: 400;
+  left: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 67px;
+  width: 237px;
+}
+
+
+.locations-stat {
+  height: 200px;
+  left: 275px;
+  position: absolute;
+  top: 0;
+  width: 230px;
+}
+
+.locations-number {
+  color: #000000;
+    
+  font-size: 48px;
+  font-weight: 700;
+  left: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 117px;
+}
+
+.text-wrapper-5 {
+  color: #707070;
+     
+  font-size: 20px;
+  font-weight: 400;
+  left: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 67px;
+  width: 225px;
+}
+
+
+.overlap-3 {
+  height: 201px;
+  left: 550px;
+  position: absolute;
+  top: 0;
+  width: 227px;
+}
+
+.text-wrapper-6 {
+  color: #000000;
+    
+  font-size: 48px;
+  font-weight: 700;
+  left: 3px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 166px;
+}
+
+.text-wrapper-7 {
+  color: #707070;
+     
+  font-size: 20px;
+  font-weight: 400;
+  left: 3px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 67px;
+  width: 224px;
+}
+
+
+/* about */
+
+.about-section {
+  height: 769px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 140px;
+  width: 500px;
+  left: 800px;
+
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.about-heading {
+  align-items: flex-start;
+  background-color: #1a6955;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  padding: 52px 44px;
+  position: relative;
+  height: 370px;
+}
+
+.about-content {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+}
+
+.about-div {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 23px;
+  position: relative;
+  width: 459.48px;
+}
+
+.about-heading-2 {
+  height: 106.33px;
+  position: relative;
+  width: 434.39px;
+}
+
+.about-text-wrapper {
+  color: #ffffff;
+    
+  font-size: 30px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 39px;
+  position: absolute;
+  top: 38px;
+  width: 434px;
+}
+
+.about-sub-text {
+  border: 0.5px solid;
+  border-color: #d9d8d8;
+  height: 27px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 141px;
+}
+
+.about-about-us {
+  color: #eeeeee;
+    
+  font-size: 14px;
+  font-weight: 400;
+  left: 15px;
+  letter-spacing: 5.81px;
+  line-height: 19.9px;
+  position: absolute;
+  top: 3px;
+  white-space: nowrap;
+}
+
+.about-capitalize-on-low {
+  margin-top: 30px;
+  color: #b6b6b6;
+  font-size: 16px;
+  font-weight: 400;
+  height: 100px;
+  letter-spacing: 0;
+  line-height: 22.7px;
+  position: relative;
+  width: 459.48px;
+}
+
+.about-div-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 25px;
+  position: relative;
+}
+
+.about-element {
+  align-items: center;
+  display: flex;
+  gap: 14px;
+  position: relative;
+  width: 194.87px;
+}
+
+.about-icon {
+  border: 1px solid;
+  border-color: #d9d8d8;
+  border-radius: 29.54px;
+  height: 59.09px;
+  position: relative;
+  width: 59.09px;
+}
+
+.about-icn {
+  height: 24px;
+  left: 16px;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.about-text-wrapper-2 {
+  color: #ffffff;
+    
+  font-size: 14px;
+  font-weight: 600;
+  height: 37.04px;
+  letter-spacing: 0;
+  line-height: 19.9px;
+  position: relative;
+  width: 128px;
+}
+
+.about-element-2 {
+  align-items: center;
+  display: flex;
+  gap: 14px;
+  position: relative;
+  width: 189.43px;
+}
+
+.about-icn-2 {
+  height: 22px;
+  left: 17px;
+  position: absolute;
+  top: 17px;
+  width: 22px;
+}
+
+.about-text-wrapper-3 {
+  color: #ffffff;
+    
+  font-size: 14px;
+  font-weight: 600;
+  height: 37.04px;
+  letter-spacing: 0;
+  line-height: 19.9px;
+  position: relative;
+  width: 116.34px;
+}
+
+.about-button {
+  all: unset;
+  align-items: center;
+    
+  color: white;
+  background-color: #064535;
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 17px 41px;
+  position: relative;
+}
+
+
+.button-set {
+  align-items: center;
+  display: inline-flex;
+  gap: 24px;
+  left: 129px;
+  position: absolute;
+  top: 499px;
+}
+
+
+
+
+
+
+.about-img {
+  /* background-image: url(./container.svg); */
+  background-size: 100% 100%;
+  height: 511px;
+  left: 380px;
+  top: -500px;
+
+  position: relative;
+}
+
+
+
+stance {
+  left: 232px !important;
+  top: 178px !important;
+}
+
+.doc-search {
+  height: 212px;
+  left: 92px;
+  position: absolute;
+  top: 696px;
+  width: 1260px;
+}
+
+.meet-our-doc {
+  background-color: #ffffff;
+  height: auto;
+  left: 0;
+  position: absolute;
+  top: 1861px;
+  width: 1510px;
+}
+
+.overlap-7 {
+  top: -500px;
+  background-color: #ffffff;
+  height: auto;
+  position: relative;
+}
+
+.overlap-group-3 {
+  height: 172px;
+  left: 413px;
+  position: absolute;
+  top: 72px;
+  width: 614px;
+}
+
+.doc-heading {
+  color: #000000;
+    
+  font-size: 36px;
+  font-weight: 700;
+  left: 155px;
+  letter-spacing: 0;
+  line-height: 46px;
+  position: absolute;
+  text-align: center;
+  top: 39px;
+  white-space: nowrap;
+}
+
+.doc-sub-heading {
+  color: #555555;
+    
+  font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 101px;
+  width: 614px;
+}
+
+.heading-highlight-3 {
+  height: 172px;
+  left: 155px;
+  position: absolute;
+  top: 0;
+  width: 312px;
+}
+
+
+.doc-card-group {
+  position: relative;
+  top: 350px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 200px;
+  
+}
+
+.card.doc-card {
+  width: 18rem;
+  margin-bottom: 20px;
+  /* border: 1px solid; */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px #1a695573; 
+}
+
+
+.card-img-top {
+  height: 200px; /* Set the desired height for the doctor image */
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 20px;
+  margin: 15px;
+}
+
+.card-text {
+  font-size: 15px;
+  color: #555;
+}

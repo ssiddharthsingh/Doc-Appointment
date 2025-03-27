@@ -1,0 +1,45 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #1a6955;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    transition: .3s ease;
+  }
+  
+  .tab {
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .tab:hover {
+    border-radius: 20px;
+    background-color: #124a3c;
+  }
+  
+  .tab.active {
+    border-radius: 20px;
+    background-color: #124a3c;
+  }
+
+  .logout-button {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #124a3c; 
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+  }
+  
+  .logout-button:hover {
+    background-color: #d00000;
+  }

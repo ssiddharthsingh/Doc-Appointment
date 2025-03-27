@@ -1,0 +1,114 @@
+.doctor-details-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  z-index: 1000;
+  transition: .3s ease;
+}
+
+.doctor-details {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  width: 1000px;
+  max-height: 80vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Left side content */
+.doctor-details-left {
+  flex: 1;
+  padding: 20px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.doctor-details-left-item {
+  margin-bottom: 15px;
+}
+
+.doctor-details-left-item-label {
+  font-weight: bold;
+  color: #555;
+}
+
+.doctor-details-left-item-value {
+  color: #333;
+}
+
+.feedbacksSection {
+  margin-top: 20px;
+}
+
+.feedbackItem {
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+}
+
+.authorPicContainer {
+  margin-right: 15px;
+}
+
+.authorPic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.Authorfeedback {
+  margin: 10px 0;
+  font-style: italic;
+}
+
+.authorName {
+  color: #777;
+}
+
+/* Close button */
+.close-btn {
+  background-color: #fff;
+  height: 40px;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.close-btn:hover {
+  background-color: #eee;
+}
+
+/* Right side content */
+.doctor-details-right {
+  flex: 1;
+  overflow: hidden;
+}
+
+
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .doctor-details-popup {
+    width: 90%;
+  }
+
+  .doctor-details {
+    flex-direction: column;
+  }
+
+  .doctor-details-left,
+  .doctor-details-right {
+    flex: none;
+    width: 100%;
+  }
+}
